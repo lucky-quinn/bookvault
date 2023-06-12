@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="192x192" href="/home/favicon-192x192.png">
+    <link rel="stylesheet" href="catalog.css">
+    <title>Bookvault</title>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="navbar">
+            <li id="logo"><a href="home.html">BookVault </a></li>
+            <li><a href="../catalog.html" class="active">Catalog </a></li>
+            <li><a href="../search.html">Search</a></li>
+            <li><a href="../update.html">Update</a></li>
+            <li><a href="home.html"> Home</a></li>
+        </ul>
+    </div>
+    <div class="page">
+        <form method="get" action="http://localhost:8080/catalog">
+            <input type="submit" class="button-85" value="Generate Report" name="catalog">
+        </form>
+        <h3 class="names">Books:</h3>
+        <div id="booktable" class="books">

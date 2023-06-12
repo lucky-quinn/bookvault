@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    margin: 0px;
+    background: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(/images/bg.jpg);
+    
+}
+
+.page {
+    width: 100%;
+    border-radius: 4px;
+    padding-top: 150px;
+    display: flex;
+    grid-gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.books {
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.journal {
+    width: 60%;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.names {
+    text-align: left;
+    font-size: 45px;
+    color: #fff;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+ul.navbar {
+    position: fixed;
+    list-style-type: none;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    overflow: hidden;
+    background: linear-gradient(rgba(48, 48, 47, 0.616) 0%, rgba(11, 141, 167, 0) 90%);
+}
+
+li {
+    float: right;
+}
+
+
+a {
+    display: block;
+    background-color: rgba(48, 48, 47, 0.356);
+    color: rgb(197, 221, 223);
+    font-size: 24px;
+    padding: 14px 16px;
+    text-decoration: solid;
+}
+
+a:hover {
+    background-color: #fd7506;
+}
+
+.active {
+    background-color: #fd7506;
+}
+
+#logo {
+
+    float: left;
+    font-size: 24px;
+    color: #fd7506 !important;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    
+}
+th {
+    font-size: 18px;
+    font-weight: bold;
+  }
+tr:nth-child(even) {
+    background-color: #f4a96b;
+}
+#booktable{
+    position: relative;
+    width: 60vw;
+    height: 35vh;
+    border-color: rgb(244, 169, 107);
+    background-color: rgba(61, 28, 0, 0.432);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 10px 10px rgba(61, 28, 0, 0.432);
+    overflow-y: auto;
+}
+
+#booktable::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#booktable::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#booktable::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #f4a96b;
+}
+
+
+#journaltable{
+    position: relative;
+    width: 60vw;
+    height: 35vh;
+    border-color: rgb(253, 117, 6);
+    background-color: rgba(61, 28, 0, 0.432);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.473);
+    overflow-y: auto;
+
+}
+#journaltable::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#journaltable::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#journaltable::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #f4a96b;
+}
+
+.button-85 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: #28282d;
+  border-radius: 10px;
+  color: #f0f0f0;
+  cursor: pointer;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:hover {
+  background: #ffffff15;
+  transition: .1s;
+  color: black;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transform: translateY(10%);
+}
+
+.button-85:not(:hover){
+    transition: .1s;
+    transform: translateY(-10%);
+}
+
+.bottom{
+    margin-top: 50px;
+    width: 100vw;
+    height: 15vh;
+    background-color:  rgb(42, 43, 46);
+    display: flex;
+    color: white;
+    .bot_left{
+        flex:1;
+        margin-left: 10vw;
+        align-self: center;
+    }
+    .bot_right{
+        flex:1;
+        margin-left: 40vw;
+        align-self: center;
+    }
+}
+
+.bot-heading{
+    font-size: 32px;
+}
+.bot-txt{
+    font-size: 16px;
+}

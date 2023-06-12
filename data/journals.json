@@ -1,0 +1,142 @@
+[
+  {
+    "journalId": "J100",
+    "journalName": "Scientific Discoveries",
+    "publicationDate": "2022-01-15",
+    "author": "Laura Anderson",
+    "authorId": "121"
+  },
+  {
+    "journalId": "J101",
+    "journalName": "Nature Insights",
+    "publicationDate": "2023-04-05",
+    "author": "Michael Collins",
+    "authorId": "122"
+  },
+  {
+    "journalId": "J102",
+    "journalName": "Journal of Medical Research",
+    "publicationDate": "2022-07-22",
+    "author": "Emily Johnson",
+    "authorId": "123"
+  },
+  {
+    "journalId": "J103",
+    "journalName": "Innovation Today",
+    "publicationDate": "2021-11-10",
+    "author": "Christopher Davis",
+    "authorId": "124"
+  },
+  {
+    "journalId": "J104",
+    "journalName": "Technological Advances",
+    "publicationDate": "2023-02-18",
+    "author": "Sophia Thompson",
+    "authorId": "125"
+  },
+  {
+    "journalId": "J105",
+    "journalName": "Environmental Studies",
+    "publicationDate": "2022-05-07",
+    "author": "Matthew Turner",
+    "authorId": "126"
+  },
+  {
+    "journalId": "J106",
+    "journalName": "Business Insights",
+    "publicationDate": "2023-09-01",
+    "author": "Olivia Wilson",
+    "authorId": "127"
+  },
+  {
+    "journalId": "J107",
+    "journalName": "Educational Perspectives",
+    "publicationDate": "2022-01-12",
+    "author": "Benjamin Mitchell",
+    "authorId": "128"
+  },
+  {
+    "journalId": "J108",
+    "journalName": "Psychological Studies",
+    "publicationDate": "2023-06-28",
+    "author": "Ava Davis",
+    "authorId": "129"
+  },
+  {
+    "journalId": "J109",
+    "journalName": "Social Sciences Review",
+    "publicationDate": "2021-12-08",
+    "author": "Samuel Green",
+    "authorId": "130"
+  },
+  {
+    "journalId": "J110",
+    "journalName": "Healthcare Innovations",
+    "publicationDate": "2022-03-19",
+    "author": "Lily Martinez",
+    "authorId": "131"
+  },
+  {
+    "journalId": "J111",
+    "journalName": "Ecology Journal",
+    "publicationDate": "2023-08-02",
+    "author": "Daniel Cooper",
+    "authorId": "132"
+  },
+  {
+    "journalId": "J112",
+    "journalName": "Mathematical Perspectives",
+    "publicationDate": "2022-02-14",
+    "author": "Chloe Adams",
+    "authorId": "133"
+  },
+  {
+    "journalId": "J113",
+    "journalName": "Literary Critique",
+    "publicationDate": "2023-05-09",
+    "author": "Samuel Evans",
+    "authorId": "134"
+  },
+  {
+    "journalId": "J114",
+    "journalName": "Journal of Physics",
+    "publicationDate": "2022-09-28",
+    "author": "Grace Parker",
+    "authorId": "135"
+  },
+  {
+    "journalId": "J115",
+    "journalName": "Chemical Insights",
+    "publicationDate": "2023-01-02",
+    "author": "Oliver Hall",
+    "authorId": "136"
+  },
+  {
+    "journalId": "J116",
+    "journalName": "Political Science Review",
+    "publicationDate": "2022-06-17",
+    "author": "David Thompson",
+    "authorId": "137"
+  },
+  {
+    "journalId": "J117",
+    "journalName": "History Chronicle",
+    "publicationDate": "2021-11-30",
+    "author": "Scarlett Wilson",
+    "authorId": "138"
+  },
+  {
+    "journalId": "J118",
+    "journalName": "Medical Breakthroughs",
+    "publicationDate": "2023-02-07",
+    "author": "Ethan Mitchell",
+    "authorId": "139"
+  },
+  {
+    "journalId": "J119",
+    "journalName": "Technology Trends",
+    "publicationDate": "2022-07-12",
+    "author": "Isabella Walker",
+    "authorId": "140"
+  }
+]

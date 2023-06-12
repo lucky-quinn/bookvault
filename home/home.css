@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/bg.jpg);
+}
+
+.top {
+    position: relative;
+}
+
+ul.navbar {
+    position: fixed;
+    list-style-type: none;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(rgba(68, 68, 67) 0%, rgba(11, 141, 167, 0) 90%);
+
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    background-color: rgba(48, 48, 47, 0.356);
+    color: rgb(197, 221, 223);
+    font-size: 24px;
+    padding: 14px 16px;
+    text-decoration: solid;
+}
+
+a:hover {
+    background-color: #fd7506;
+}
+
+.active {
+    background-color: #fd7506;
+}
+
+#logo {
+
+    float: left;
+    font-size: 24px;
+    color: #fd7506 !important;
+}
+
+
+.active {
+    background-color: #fd7506;
+}
+
+.container {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container>div {
+    margin-bottom: 0px;
+}
+
+.main-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(68, 68, 67) 0%, rgba(11, 141, 167, 0) 50%);
+
+    margin-bottom: 0;
+
+    .main-head-text {
+        font-size: 320px;
+        color: white;
+        text-shadow: 15px 10px 10px rgba(0, 0, 0, 0.5);
+
+    }
+}
+
+.welcome {
+    margin-top: 2.25%;
+    width: 100vw;
+    height: fit-content;
+    color: white;
+    background: linear-gradient(rgba(68, 68, 67, 0) 0%, rgba(68, 68, 67, 0.356) 10%);
+
+    display: flex;
+
+    .wel_left {
+        flex: 1;
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border-radius: 10%;
+        background-image: url(/images/welcome.jpg);
+    }
+
+    .wel_right {
+        flex: 2;
+        margin-top: 75px;
+        margin-right: 100px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 32px;
+
+    }
+}
+
+.collections {
+    width: 100vw;
+    height: fit-content;
+    color: white;
+    background: linear-gradient(rgba(68, 68, 67, 0.356) 0%, rgba(11, 141, 167, 0.384) 100%);
+    display: flex;
+
+    .col_left {
+        flex: 2;
+        margin-left: 100px;
+        margin-top: 75px;
+        font-family: 'Quicksand', sans-serif;
+
+    }
+
+    .col_right {
+        flex: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border-radius: 10%;
+        background-image: url(/images/collection.webp);
+    }
+}
+
+.recommendations {
+    width: 100vw;
+    height: fit-content;
+    background: linear-gradient(rgba(11, 141, 167, 0.384) 0%, rgba(42, 43, 46, 0.384) 80%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    display: flex;
+
+    .recom_left {
+        flex: 1;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        border-radius: 10%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -190px 100%;
+        background-image: url(/images/recomendation.jpg);
+    }
+
+    .recom_right {
+        margin-top: 75px;
+        flex: 2;
+        margin-right: 100px;
+        font-family: 'Quicksand', sans-serif;
+
+    }
+}
+
+.bottom {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(42, 43, 46);
+    display: flex;
+    color: white;
+
+    .bot_left {
+        flex: 1;
+        margin-left: 10vw;
+        align-self: center;
+    }
+
+    .bot_right {
+        flex: 1;
+        margin-left: 40vw;
+        align-self: center;
+    }
+}
+
+.heading {
+    font-size: 56px;
+    font-family: 'Playfair Display', serif;
+}
+
+.bot-heading {
+    font-size: 32px;
+}
+
+.bot-txt {
+    font-size: 16px;
+}
+
+p {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+table {
+    text-align: left;
+    border: 10px;
+}
+
+.data {
+    column-span: 2;
+}

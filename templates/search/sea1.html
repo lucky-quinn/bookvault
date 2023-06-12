@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="192x192" href="/home/favicon-192x192.png">
+    <link rel="stylesheet" href="search.css">
+    <title>Bookvault</title>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="navbar">
+            <li id="logo"><a href="home.html">BookVault </a></li>
+            <li><a href="catalog.html">Catalog </a></li>
+            <li><a href="../search.html" class="active">Search</a></li>
+            <li><a href="../update.html">Update</a></li>
+            <li><a href="home.html"> Home</a></li>
+        </ul>
+    </div>
+    <div class="Page">
+        <h1>Search for book/journal</h1>
+        <div class="searchform">
+
+            <form method="post" action="http://localhost:8080/search">
+                <table class="arranging-table">
+                    <tr>
+                        <th><label> Type of Document:</label></th>
+                        <th><select name="document" id="doc_type" required>
+                                <option disabled selected value> select an option</option>
+                                <option value="books">Books</option>
+                                <option value="journals">Journals</option>
+                            </select></th>
+                    </tr>
+                    <tr>
+                        <th><label>Type of Search </label></th>
+                        <th><input type="radio" name="search_type" value="name">Title<span></span>
+                            <input type="radio" name="search_type" value="date">Publishing Date<br>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label>Search Term: </label></th>
+                        <th><input type="text" name="search" id="Search_term" required></th>
+                    </tr>
+                </table>
+                <input type="submit" name="submit" class="button-85" value="Search">
+
+
+            </form>
+        </div>
+        <h2>Results:</h2>
+        <div id="booktable" class="searchresult">

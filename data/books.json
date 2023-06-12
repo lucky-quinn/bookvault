@@ -1,0 +1,142 @@
+[
+  {
+    "bookId": "B100",
+    "bookName": "The Whispering Shadows",
+    "publicationDate": "2022-10-10",
+    "author": "Sarah Morgan",
+    "authorId": "101"
+  },
+  {
+    "bookId": "B101",
+    "bookName": "Echoes of Destiny",
+    "publicationDate": "2023-03-05",
+    "author": "Benjamin Turner",
+    "authorId": "102"
+  },
+  {
+    "bookId": "B102",
+    "bookName": "A Thousand Stars",
+    "publicationDate": "2022-07-15",
+    "author": "Emily Carter",
+    "authorId": "103"
+  },
+  {
+    "bookId": "B103",
+    "bookName": "The Secret Garden",
+    "publicationDate": "2021-11-22",
+    "author": "James Thompson",
+    "authorId": "104"
+  },
+  {
+    "bookId": "B104",
+    "bookName": "Beyond the Horizon",
+    "publicationDate": "2023-02-18",
+    "author": "Olivia Hughes",
+    "authorId": "105"
+  },
+  {
+    "bookId": "B105",
+    "bookName": "The Enigma of Time",
+    "publicationDate": "2022-04-07",
+    "author": "Ethan Scott",
+    "authorId": "106"
+  },
+  {
+    "bookId": "B106",
+    "bookName": "Whispers in the Wind",
+    "publicationDate": "2023-09-01",
+    "author": "Lily Davis",
+    "authorId": "107"
+  },
+  {
+    "bookId": "B107",
+    "bookName": "Mystic Dreams",
+    "publicationDate": "2022-01-12",
+    "author": "Daniel Wilson",
+    "authorId": "108"
+  },
+  {
+    "bookId": "B108",
+    "bookName": "Dancing in the Moonlight",
+    "publicationDate": "2023-06-25",
+    "author": "Ava Turner",
+    "authorId": "109"
+  },
+  {
+    "bookId": "B109",
+    "bookName": "Sands of Serenity",
+    "publicationDate": "2021-12-08",
+    "author": "Samuel Green",
+    "authorId": "110"
+  },
+  {
+    "bookId": "B110",
+    "bookName": "The Art of Deception",
+    "publicationDate": "2022-03-19",
+    "author": "Chloe Adams",
+    "authorId": "111"
+  },
+  {
+    "bookId": "B111",
+    "bookName": "Lost in Time",
+    "publicationDate": "2023-08-02",
+    "author": "Sophia Cooper",
+    "authorId": "112"
+  },
+  {
+    "bookId": "B112",
+    "bookName": "Whispers of Fate",
+    "publicationDate": "2022-02-14",
+    "author": "Jacob Martinez",
+    "authorId": "113"
+  },
+  {
+    "bookId": "B113",
+    "bookName": "Journey to the Stars",
+    "publicationDate": "2023-05-09",
+    "author": "Grace Evans",
+    "authorId": "114"
+  },
+  {
+    "bookId": "B114",
+    "bookName": "The Forbidden Key",
+    "publicationDate": "2022-09-28",
+    "author": "Max Parker",
+    "authorId": "115"
+  },
+  {
+    "bookId": "B115",
+    "bookName": "Shadows of Destiny",
+    "publicationDate": "2023-01-02",
+    "author": "Amelia Hall",
+    "authorId": "116"
+  },
+  {
+    "bookId": "B116",
+    "bookName": "The Silent Echo",
+    "publicationDate": "2022-06-17",
+    "author": "David Wright",
+    "authorId": "117"
+  },
+  {
+    "bookId": "B117",
+    "bookName": "Reflections of the Past",
+    "publicationDate": "2021-11-30",
+    "author": "Scarlett Thompson",
+    "authorId": "118"
+  },
+  {
+    "bookId": "B118",
+    "bookName": "The Crystal Crown",
+    "publicationDate": "2023-02-07",
+    "author": "Matthew Adams",
+    "authorId": "119"
+  },
+  {
+    "bookId": "B119",
+    "bookName": "Journey Through Time",
+    "publicationDate": "2022-07-12",
+    "author": "Isabella Walker",
+    "authorId": "120"
+  }
+]
