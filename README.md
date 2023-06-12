@@ -39,4 +39,9 @@ Start the server
 ```bash
   npm run start
 ```
+## Authors
+
+- [@lucky-quinn](https://github.com/lucky-quinn)
+- [@Tractonite](https://github.com/Tractonite)
+- [@AdithyanBabu](https://github.com/AdithyanBabu)
 
