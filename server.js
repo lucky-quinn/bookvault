@@ -29,7 +29,8 @@ var up2 = fs.readFileSync('templates/update/up2.html').toString()
 var sea1 = fs.readFileSync('templates/search/sea1.html').toString()
 var sea2 = fs.readFileSync('templates/search/sea2.html').toString()
 
-
+var add1 = fs.readFileSync('templates/add/add1.html').toString()
+var add2 = fs.readFileSync('templates/add/add2.html').toString()
 
 
 //Display function
@@ -125,10 +126,6 @@ app.post('/update', async function (req, res) {
 
 //search route
 app.post('/search', async function (req, res) {
-    response = {
-        documentType: req.body.document,
-
-    };
     var documentType = req.body.document
     var search_type = req.body.search_type
     var search_term = req.body.search
@@ -162,13 +159,55 @@ app.post('/search', async function (req, res) {
         var output = sea1 + await displaygen(documentType, Result) + sea2
         fs.writeFileSync('renders/search.html', output)
     }
-    else{
+    else {
         const noOutput = "<h2>No results found</h2>"
         var output = sea1 + noOutput + sea2
         fs.writeFileSync('renders/search.html', output)
     }
 
     res.sendFile(path.join(__dirname, '/renders/search.html'))
+});
+
+//add route
+app.post('/add', async function (req, res) {
+    var doc_type = req.body.document
+    if (doc_type === 'books') {
+        response = {
+            bookId: req.body.doc_id,
+            bookName: req.body.doc_title,
+            publicationDate: req.body.doc_publish,
+            author: req.body.doc_author,
+            authorId: req.body.doc_author_id
+        }
+    }
+    else {
+        response = {
+            jounralId: req.body.doc_id,
+            jounralName: req.body.doc_title,
+            publicationDate: req.body.doc_publish,
+            author: req.body.doc_author,
+            authorId: req.body.doc_author_id
+        }
+    }
+    await client.connect()
+    console.log("Connected succesfully to server")
+    const db = client.db(dbName)
+    stats = await db.collection(doc_type).insertOne(response)
+
+    fs.truncateSync('renders/search.html', 0, function () {
+    })
+    if (stats.acknowledged === true) {
+        var instat = "Book/journal inserted"
+    }
+    else {
+        var instat = "Error!! Book/journal insertion error"
+    }
+    var output = add1 + "<h2>" + instat + "</h2>" + sea2
+    fs.writeFileSync('renders/add.html', output)
+    console.log(response)
+
+    res.sendFile(path.join(__dirname, '/renders/add.html'))
+
 });
 
 //router listen

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png">
-    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="add.css">
     <title>Bookvault</title>
 
 </head>
@@ -16,17 +16,17 @@
         <ul class="navbar">
             <li id="logo"><a href="home.html">BookVault </a></li>
             <li><a href="catalog.html">Catalog </a></li>
-            <li><a href="../search.html" class="active">Search</a></li>
+            <li><a href="../search.html">Search</a></li>
             <li><a href="../update.html">Update</a></li>
-            <li><a href="../add.html">Add New</a></li>
+            <li><a href="../add.html"class="active">Add New</a></li>
             <li><a href="home.html"> Home</a></li>
         </ul>
     </div>
     <div class="Page">
-        <h1>Search for book/journal</h1>
-        <div class="searchform">
+        <div class="addform">
+            <h1>Add new book/journal</h1>
+            <form method="post" action="http://localhost:8080/add">
 
-            <form method="post" action="http://localhost:8080/search">
                 <table class="arranging-table">
                     <tr>
                         <th><label> Type of Document:</label></th>
@@ -37,28 +37,35 @@
                             </select></th>
                     </tr>
                     <tr>
-                        <th><label>Type of Search </label></th>
-                        <th><input type="radio" name="search_type" value="name">Title<span></span>
-                            <input type="radio" name="search_type" value="date">Publishing Date<br>
-                        </th>
+                        <th><label>Enter book/journal ID:</label></th>
+                        <th><input type="text" name="doc_id" id="id" required></th>
                     </tr>
                     <tr>
-                        <th><label>Search Term: </label></th>
-                        <th><input type="text" name="search" id="Search_term" required></th>
+                        <th><label>Enter book/journal name:</label></th>
+                        <th><input type="text" name="doc_title" id="title" required></th>
+                    </tr>
+                    <tr>
+                        <th><label>Publication Date:</label></th>
+                        <th><input type="date" name="doc_publish" id="publish_date" required></th>
+                    </tr>
+                    <tr>
+                        <th><label>Author Name:</label></th>
+                        <th><input type="text" name="doc_author" id="author" required></th>
+                    </tr>
+                    <tr>
+                        <th><label>Author ID:</label></th>
+                        <th><input type="text" name="doc_author_id" id="author_id" required></th>
                     </tr>
                 </table>
-                <input type="submit" name="submit" class="button-85" value="Search">
-
+                <input type="submit" class="button-85" name="submit" value="Add Entry">
 
             </form>
         </div>
-        <h2>Results:</h2>
-        <div id="booktable" class="searchresult">
+        <div class="addStatus">
 
         </div>
 
     </div>
-
     <div class="bottom">
         <div class="bot_left">
             <p class="bot-heading">BookVault</p>
